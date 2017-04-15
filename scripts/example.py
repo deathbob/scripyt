@@ -1,2 +1,5 @@
+import sys
 
-print("hello from python")
+foo = sys.argv[1]
+
+print("hello from " + foo)
